@@ -244,3 +244,48 @@ header nav li:last-child {
     }
 }
 
+/* Services Section */
+
+.services {
+    background-color: #F7F7F7;
+}
+
+.services .grid li {
+    padding: 0 30px;
+    flex-basis: 33%;
+    text-align: center;
+}
+
+.services .grid li i {
+    font-size: 50px;
+    color: #2196F3;
+    margin-bottom: 25px;
+}
+
+.services .grid li h4 {
+    color: #555;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.services .grid li p {
+    margin: 0;
+}
+
+@media (max-width: 1000px) {
+    .services .grid li {
+        flex-basis: 70%;
+        margin-bottom: 65px;
+    }
+    .services .grid li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .services .grid li {
+        flex-basis: 100%;
+    }
+}
+
+
